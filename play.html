@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="bombTimerFixed.png">
+    <title>Defuse It!</title>
+
+
+    <style>
+        @import url("style.css");
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+    </style>
+</head>
+<body>
+    <section id="navBar">
+
+        <div id="nav">
+            
+        </div>
+
+        <div id="nav">
+            <div id="navA">
+                <a href="index.html"><h1>Defuse It!</h1></a>
+            </div>
+            
+        </div>
+
+        <div id="nav">
+            
+        </div>
+
+    </section>
+
+    <section id="main">
+        
+        <div id="mainImg">
+            <img src="icons/bombTimerFixed.png" alt="Bomb timer">
+        </div>
+       
+        <div id="howToPlay">
+            <h1>How to play?</h1>
+            <p> "Defuse It!" includes 4 Mini-Games. <br> Complete them all to defuse the bomb. <br> The sooner you finish, the better score you get. <br>*DO NOT refresh the browser while playing the game*<br> Good luck and have fun!</p>
+        </div>
+
+        <div id="Game">
+
+            <div id="miniGame1" class="miniGames">
+                <h2>Mini-Game 1 <br> Number Of The Day</h2>
+                <p>Guess the correct number from the interval given</p>
+
+
+                <div id="context1"></div>
+
+
+                <input type="number" id="numberJS" style="max-width: 5vw;" placeholder="?"><br>
+                <input type="submit" onClick="miniGame1()" value="Submit">
+
+
+                <div id="ans1"></div>
+                <div id="c1"></div>
+
+
+                <script src="miniGame1.js">
+                    
+                </script>
+            </div>
+
+            <div id="miniGame2" class="miniGames">
+                <h2>Mini-Game 2 <br> Wordle?</h2>
+                <p>Guess the correct word from the letters given</p>
+
+
+                
+
+                
+                <script src="miniGame2.js"></script>
+            </div>
+
+            <div id="miniGame3" class="miniGames">
+
+                <h2>Mini-Game 3 <br> Code breaker!</h2>
+                <p>Solve the  3 stage mystery code</p>
+
+                <div id="stageOne">
+
+                    <div id="code"></div>
+
+                        <div id="stageC1">
+                            <input type="text" placeholder="Code one" id="ans"><br>
+                            <input type="submit" onclick="CheckOne()" value="Submit">
+                        </div>
+                </div>
+                    <div id="test"></div>
+
+                <script src="miniGame3one.js"></script>
+
+
+                <div id="stageTwo">
+
+                    <div id="code"></div>
+
+                        <div id="stageC1">
+                            <input type="text" placeholder="Code one" id="ans"><br>
+                            <input type="submit" onclick="CheckOne()" value="Submit">
+                        </div>
+                </div>
+                    <div id="test"></div>
+
+                <script src="miniGame3two.js"></script>
+            </div>
+
+            <div id="miniGame4" class="miniGames">
+                <h2>Mini-Game 4 <br> Defuse It!</h2>
+                <p>Write the final code which includes previous answers in correct order</p>
+
+
+                <script src="miniGame4.js"></script>
+            </div>
+
+
+            
+
+        </div>
+        
+        
+    </section>
+
+    <section id="footer">
+        <table>
+            <tr> 
+                <td>Copyright © 2023 </td> 
+                <td>Made by <a href="https://github.com/MaklonMcLona" target="_blank" title="GitHub page"> MaklonMcLona</a> </td>
+                <td>All rights reserved</td>   
+            </tr>
+        </table>
+
+    </section>
+</body>
+</html>

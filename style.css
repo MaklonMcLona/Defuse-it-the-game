@@ -1,0 +1,218 @@
+*
+{
+    margin: 0px;
+    background-color: rgb(57, 62, 65);
+    font-family: Nanum Pen Script;
+    letter-spacing: 2px;
+}
+
+#navBar
+{
+    text-align: center;
+    color: rgb(246, 174, 45);
+    padding-top: 5vh;
+
+}
+
+#navA
+{
+    max-height: 20vh;
+    max-width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+#navA a
+{
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(246, 174, 45);
+    transition: 120ms ease-in-out;
+    font-size: 8vw;
+}
+
+#navA a:hover
+{
+    text-decoration: none;
+    cursor: pointer;
+    color:rgb(246, 152, 45);
+    font-size: 8.3vw;  
+}
+
+#main
+{
+    margin-top: 8vh;
+}
+
+#mainImg img
+{
+    width: 35%;
+    padding: 0px;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    animation: bomb 8s infinite;
+}
+
+
+@keyframes bomb
+{
+    0% {left: 0vw; top: 0vh;}
+    25% {left: 10vw; top: 2.5vh;}
+    75% {left: -10vw; top: -2.5vh;}
+    100%{left: 0vw; top: 0vh;}
+}
+
+#mainImg
+{
+    max-height: 350px;
+}
+
+
+#options
+{
+    text-align: center;
+    margin-top: 5vh; 
+}
+
+
+#options a
+{
+    text-decoration: none;
+    color:rgb(246, 174, 45);
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-size: 4vw;
+    transition: 120ms ease-in-out;
+}
+
+#options a:hover
+{
+    text-decoration: none;
+    color:rgb(246, 152, 45);
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-size: 4.2vw;
+}
+
+#opt
+{
+    margin-top: 6vh;
+    max-height: 6vh;
+}
+
+#footer
+{
+    color: rgb(246, 174, 45);
+    font-size: 2vw;
+    margin-top: 18vh;
+}
+
+#footer table
+{
+    margin: auto;
+}
+
+#footer table td
+{
+    padding: 4vw;
+}
+
+
+#footer table td a
+{
+    text-decoration: none;
+    color:rgb(246, 174, 45);
+    transition: 120ms ease-in-out;
+}
+
+#footer table td a:hover
+{
+    text-decoration: none;
+    color:rgb(246, 152, 45);
+    font-size: 4.1vh;
+}
+
+#howToPlay
+{
+    color: rgb(246, 174, 45);
+    text-align: center;
+    margin-top: 5vh;
+    padding: 2.5vh;
+    font-size: 2vw;
+}
+
+#howToPlay h1
+{
+    text-align: center;
+    padding-bottom: 3.5vh;
+}
+
+.miniGames
+{
+    color: rgb(246, 174, 45);
+    text-align: center;
+    margin-top: 5vh;
+    padding: 2.5vh;
+    font-size: 2vw; 
+    border: 0.3vw solid rgb(246, 174, 45);
+    border-radius: 20px;
+    max-width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input
+{
+    border-radius: 1.5vh;
+    border: none;
+    color:rgb(57, 62, 65);
+    background-color: rgb(246, 174, 45);
+    text-align: center;
+    height: 5vh;
+    width: 8vw;
+    padding: 0px;
+    margin: 2vh;
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+input[type=number] 
+{
+    -moz-appearance: textfield;
+}
+
+input[type=submit] 
+{
+    cursor: pointer;
+}
+
+#stageOne
+{
+
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+}
+
+#stageTwo
+{
+
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+}
+
+#codeB
+{
+    float: left;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    width: 50%;
+}
+
+#stageC1
+{
+    clear: both;
+}
+
+
